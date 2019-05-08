@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Euphemia-UCAS';
+    src:url('../fonts/Euphemia-UCAS.ttf.woff') format('woff'),
+        url('../fonts/Euphemia-UCAS.ttf.svg#Euphemia-UCAS') format('svg'),
+        url('../fonts/Euphemia-UCAS.ttf.eot'),
+        url('../fonts/Euphemia-UCAS.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'Euphemia-UCAS', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  padding: 30px 55px;
+  display: flex;
+  justify-content: space-between;
+}
+header > div, header > nav {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  text-align: center;
+}
+header > nav {
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  width: 50%;
+  align-self: flex-end;
+}
+header > nav a {
+  text-decoration: none;
+  background-color: #B41E00;
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 12px 5px;
+  flex-grow: 1;
+  flex-basis: 80px;
+  margin: 0 5px;
+}
+header > nav a:hover {
+  font-weight: bold;
+}
+#logo img {
+  width: 130px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px 0;
+  text-align: left;
+  background-color: #B41E00;
+  color: #FFF;
+}
+footer > div {
+  width: 20%;
+}
+footer h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer p {
+  padding: 10px 0;
+  line-height: 1.5;
+}
+footer p i {
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.banner {
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 0 0 80px 0;
+}
+#fashion {
+  background-image: url(../images/mainpic.jpg);
+}
+.banner h2 {
+  padding: 300px 0 0 0;
+}
+.banner > .button {
+  position: relative;
+  margin: 80px auto 40px;
+  width: 90px;
+  border: 1px #FFF solid;
+  padding: 10px;
+  text-align: center;
+}
+.content {
+  padding: 0 0 0 100px;
+}
+#accessories {
+  background-image: url(../images/tamara.jpg);
+}
+#instatitle {
+  text-transform: uppercase;
+  background-color: #B41E00;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+}
+
+/* News*/ 
+#collection h2 {
+  font-family: 'Shink', 'Euphemia-UCAS', Helvetica, Arial, sans-serif;
+  color: #B41E00;
+  font-size: 48px;
+}
+#reserve p {
+  font-family: 'Euphemia-UCAS', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
