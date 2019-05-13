@@ -1,65 +1,246 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Loja Ione</title>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Vitoria Richter" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="Loja Ione" />
-    <!-- CSS Files -->
-    <link type="text/css" rel="stylesheet" href="css/reset.css" >
-    <link type="text/css" rel="stylesheet" href="css/master.css" >
-    
-    <!-- Font Awesome Here https://fontawesome.com/ -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <title>Loja Ione</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Vitoria Richter" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="Loja Ione" />
+  <!-- CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/master.css">
+  <!-- JS Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+  <!-- Font Awesome Here https://fontawesome.com/ -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 </head>
+
 <body>
-    <header>
-      <div id="logo">
-          <h1><img src="images/logo.png" alt="Ione" title="Ione"/></h1>
-      </div> 
-      <nav>
-        <a href="news.html">Novidades</a>
-        <a>Acessórios</a>
-        <a>Marcas</a>
-        <a>A Loja</a>
-      </nav>
-    </header>
-    <div id="news">
-      <div id="carousel">
-
-      </div>
-      <div id="collection">
-        <h2>Novidades!</h2>
-        <p>Coleção Outono/Inverno 2019</p>
-      </div>
-      <div id="reserve">
-        <p>Faça sua pré-reserva pelo nosso<br/>
-            telefone (+55) 51 3485-1453 e<br/> 
-            venha conhecer nossas novidades.
-        </p>
-      </div>
-
+  <header>
+    <div id="logo">
+      <h1><a href="index.html"><img src="images/logo.png" alt="Ione" title="Ione" /></a></h1>
     </div>
-    <footer>
-            <div>
-              <h3>Localização</h3>
-              <p>Av. Coronel Marcos Andrade,<br />
-              171, Loja 2, Viamão - RS.</p>
-            </div>
-            <div>
-              <h3>Contato</h3>
-              <p>Tel.: +55 51 3485-1453<br />
-              E-mail:  </p>
-            </div>
-            <div>
-              <h3>Redes Sociais</h3>
-              <p>
-                <a href="https://www.instagram.com/lojaione_/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/ioneloja/"><i class="fab fa-facebook-square"></i></a>
-              </p>
-            </div>
-    </footer>
+    <nav>
+      <a href="news.html">Novidades</a>
+      <a href="accessories.html">Acessórios</a>
+      <a href="brands.html">Marcas</a>
+      <a href="history.html">A Loja</a>
+    </nav>
+  </header>
+  <div class="half-carousel fotorama" data-nav="dots" data-arrows="always" data-width="500" data-height="715">
+    <figure>
+      <img src="images/carousel/calca-skinny-estampada_172347825_7909461394990.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/macacao-estampado-com-cinto_171763385_7909461429753.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/saia-curta-estampada_171931505_7909461290247.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/moletom-alongado-de-veludo_171764545_7909461376484.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/t-shirt-estampada_172319836_7909461567288.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/camisa-basic_172350679_7909461690412.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/jaqueta-bomber-manga-de-pelo_172117607_7909461467526.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/blazer-alongado-_581.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/blusa-de-alca_172357139_7909461527626.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/blusa-gola-alta-sem-mangas_171929659_7909461433224.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/blusa-justa-gola-alta_171766645_7909461320265.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/calca-cos-duplo-gaia_171447212_7909461326854.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/calca-flare-atena-_171931115_7909461339168.jpg" alt="New collection" />
+    </figure>
+    <figure>
+      <img src="images/carousel/calca-pantalona-estampada_172319946_7909461561767.jpg" alt="New collection" />
+    </figure>
+  </div>
+  <div class="info">
+    <div id="collection">
+      <h2>Novidades!</h2>
+      <p>Coleção Outono/Inverno 2019</p>
+    </div>
+    <div id="reserve">
+      <p>Faça sua pré-reserva pelo nosso<br />
+        telefone (+55) 51 3485-1453 e<br />
+        venha conhecer nossas novidades.
+      </p>
+    </div>
+  </div>
+  <div class="collection">
+    <figure>
+      <img src="images/collection/blusa-de-alca_167reais.jpg" alt="Blusa de Alça Lança Perfume" />
+      <figcaption>Blusa de Alça Lança Perfume<br />
+        <span class="price">R$167</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/blusa-gola-alta-sem-mangas_247reais.jpg" alt="Blusa Gola Alta Lança Perfume" />
+      <figcaption>Blusa Gola Alta Lança Perfume<br />
+        <span class="price">R$247</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/blusa-justa-gola-alta_193reais.jpg" alt="Blusa Gola Alta Lança Perfume" />
+      <figcaption>Blusa Gola Alta Lança Perfume<br />
+        <span class="price">R$193</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/blusa-moletom-ombro-a-ombro_367reais.jpg" alt="Blusa Ombro a Ombro Lança Perfume" />
+      <figcaption>Blusa Ombro a Ombro Lança Perfume<br />
+        <span class="price">R$367</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/body-john-john-bay-malha-cinza-feminino-298reais.jpg" alt="Body John John" />
+      <figcaption>Body John John<br />
+        <span class="price">R$298</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/calca-cos-duplo-gaia_283reais.jpg" alt="Calça Lança Perfume" />
+      <figcaption>Calça Lança Perfume<br />
+        <span class="price">R$283</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/calca-flare-atena-_312reais.jpg" alt="Calça Flare Lança Perfume" />
+      <figcaption>Calça Flare Lança Perfume<br />
+        <span class="price">R$312</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/calca-pantalona-estampada_577reais.jpg" alt="Calça Pantalona Lança Perfume" />
+      <figcaption>Calça Pantalona Lança Perfume<br />
+        <span class="price">R$577</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/calca-skinny-estampada_486reais.jpg" alt="Calça Skinny Lança Perfume" />
+      <figcaption>Calça Skinny Lança Perfume<br />
+        <span class="price">R$486</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/camisa-basic_457reais.jpg" alt="Camisa Lança Perfume" />
+      <figcaption>Camisa Lança Perfume<br />
+        <span class="price">R$457</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/jaqueta-bomber-manga-de-pelo_993reais.jpg" alt="Jaqueta Bomber Lança Perfume" />
+      <figcaption>Jaqueta Bomber Lança Perfume<br />
+        <span class="price">R$993</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/macacao-estampado-com-cinto_597reais.jpg" alt="Macacão Lança Perfume" />
+      <figcaption>Macacão Lança Perfume<br />
+        <span class="price">R$597</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/macaquinho-cachequer-estampado_247reais.jpg" alt="Macaquinho Lança Perfume" />
+      <figcaption>Macaquinho Lança Perfume<br />
+        <span class="price">R$247</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/moletom-alongado-de-veludo_367reais.jpg" alt="Moletom Alongado Lança Perfume" />
+      <figcaption>Moletom Alongado Lança Perfume<br />
+        <span class="price">R$367</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/moletom-john-john-cammo-off-white-feminino-498reais.jpg" alt="Moletom John John" />
+      <figcaption>Moletom John John<br />
+        <span class="price">R$498</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/saia-curta-estampada_283reais.jpg" alt="Saia Lança Perfume" />
+      <figcaption>Saia Lança Perfume<br />
+        <span class="price">R$283</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/t-shirt-estampada_193reais.jpg" alt="T-Shirt Lança Perfume" />
+      <figcaption>T-Shirt Lança Perfume<br />
+        <span class="price">R$193</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/vestido-com-recortes-_337reais.jpg" alt="Vestido Lança Perfume" />
+      <figcaption>Vestido Lança Perfume<br />
+        <span class="price">R$337</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/vestido-evase-midi-com-cut-off_397reais.jpg" alt="Vestido Lança Perfume" />
+      <figcaption>Vestido Lança Perfume<br />
+        <span class="price">R$397</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/vestido-gola-alta-com-recortes_493reais.jpg" alt="Vestido Lança Perfume" />
+      <figcaption>Vestido Lança Perfume<br />
+        <span class="price">R$493</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/vestido-midi-com-fenda_597reais.jpg" alt="Vestido Lança Perfume" />
+      <figcaption>Vestido Lança Perfume<br />
+        <span class="price">R$597</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/collection/vestido-midi-plissado_783reais.jpg" alt="Vestido Lança Perfume" />
+      <figcaption>Vestido Lança Perfume<br />
+        <span class="price">R$783</span></figcaption>
+    </figure>
+  </div>
+  <footer>
+    <div>
+      <h3>Localização</h3>
+      <p>Av. Coronel Marcos Andrade,<br />
+        171, Loja 2, Viamão - RS.</p>
+    </div>
+    <div>
+      <h3>Contato</h3>
+      <p>Tel.: +55 51 3485-1453<br />
+        E-mail: lojaione@gmail.com </p>
+    </div>
+    <div>
+      <h3>Redes Sociais</h3>
+      <p>
+        <a href="https://www.instagram.com/lojaione_/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ioneloja/"><i class="fab fa-facebook-square"></i></a>
+      </p>
+    </div>
+  </footer>
 </body>
-</html>    
+
+</html>
