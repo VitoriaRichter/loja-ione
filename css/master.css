@@ -90,7 +90,7 @@ footer a {
   padding: 0 0 80px 0;
 }
 #fashion {
-  background-image: url(../images/freestocks-org-187367-unsplash.jpg);
+  background-image: url(../images/freestocks-org-169426-unsplash.jpg);
 }
 .banner h2 {
   padding: 300px 0 0 0;
@@ -304,6 +304,10 @@ footer a {
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {  
+  /* ---- BODY ---- */
+  body {
+    font-size: 30px;
+  }
   /* ---- HEADER ---- */
   header {
     padding: 30px 0 0;
