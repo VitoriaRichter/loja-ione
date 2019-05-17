@@ -225,8 +225,7 @@ footer a {
 .history {
   background-color: #d98e7f;
   color: #FFF;
-  margin: 50px 200px; 
-  padding: 20px;
+  padding: 70px 200px;
   line-height: 20px;
 }
 .history p {
@@ -267,9 +266,40 @@ footer a {
 /* ---- MEDIA QUERIES ---- */
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* Styles */
+  /* ---- HEADER ---- */
+  header > nav {
+    width: 70%;
+  }
+  /* ---- INSTA ---- */
+  #instagram-feed {
+    padding: 20px 130px;
+  }
+  .instagram_gallery > a > img {
+    width: 32% !important;
+  }
+  /* ---- COLLECTION ---- */
+  .collection {
+    margin: 50px 44px;
+    justify-content: space-around;
+  }
+  .half-carousel {
+    width: 50%;
+    margin: 80px 30px;
+  }
+  .info {
+    width: 40%;
+  }
+  /* ---- BRANDS ---- */
+  #brands img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  /* ---- HISTORY ---- */
+  .history {
+    padding: 70px 100px;
+  }
 }
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
    /* Styles */
 }
