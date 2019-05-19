@@ -149,7 +149,7 @@ footer a {
 #instagram-feed {
   padding: 20px 90px;
 }
-/* ---- NEWS ---- */ 
+/* ---- COLLECTION ---- */ 
 .info {
   display: inline-block;
   vertical-align: top;
@@ -321,11 +321,12 @@ footer a {
         justify-content: space-around;
   }
   .half-carousel {
-    width: 50%;
+    width: 40%;
     margin: 80px 30px;
   }
   .info {
     width: 40%;
+    margin: 80px auto;
   }
   /* ---- BRANDS ---- */
   #brands img {
