@@ -396,6 +396,10 @@ footer a {
     height: 5px;
     margin: 5px 0;
   }
+  /* ---- BANNER ---- */
+  .banner {
+    background-position: center;
+  }
   /* ---- INSTA ---- */
   #instagram-feed {
     padding: 20px 10px;
